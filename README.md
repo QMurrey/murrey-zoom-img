@@ -1,1 +1,1 @@
-You can find example of use and all info you need in "zoom-img.html" file
+You can find example and all info you need in "zoom-img.html" file
