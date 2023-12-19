@@ -1,0 +1,23 @@
+<!-- IMPORTANT PART -->
+<div id="zoomed-img-overlay" class="zoomed-img-overlay">
+	<div class="zoomed-img">
+		<img id="zoomed-img-placeholder" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" alt="Zoomed image">
+	</div>
+</div>
+<script src="zoom-img.min.js"></script>
+<link rel="stylesheet" type="text/css" href="zoom-img.min.css">
+<!-- IMPORTANT PART -->
+
+
+<!-- EXAMPLE OF CALL -->
+<img src="demo-img-1.png" alt="alt" class="img-to-zoom" data-zm="demo-img-1_l.png?0"/>
+<img src="demo-img-2.png" alt="alt" class="img-to-zoom" data-zm="demo-img-2_l.png?0"/>
+<script>
+	initMurreyZoomImg();
+	// .img-to-zoom is the default class, you can change it to anything, including ID or tag name
+	// Examples:
+		// initMurreyZoomImg('.any_class_name');
+		// initMurreyZoomImg('#any_id');
+		// initMurreyZoomImg('any_tag_name');
+</script>
+<!-- /EXAMPLE OF CALL -->
